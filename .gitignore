@@ -8,6 +8,10 @@ node_modules/
 *.key
 credentials*
 
+# Temporary folders: any `.tmp*` directory is disposable workspace,
+# reference material, example content, or experimental functionality.
+.tmp*/
+
 # npx skills install artifacts
 .agents/
 .adal/
